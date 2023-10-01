@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    height: 100%;
+    width: 100%;
+    background:linear-gradient(red,pink,blue,yellow,salmon);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+
+button{
+    padding:10px 50px;
+    font-size: 20px;
+    outline: none;
+    font-family: "gilroy";
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+#increment{
+    background-color: blueviolet;
+   
+
+}
+#decrement{
+    background-color: rgb(235, 20, 20);
+}
+#reset{
+    background-color:  rgba(29, 239, 29, 0.823);
+
+}
+#title{
+    text-align: center;
+    font-size: 250px;
+    color: rgba(14, 6, 6, 0.89);
+   
+
+}
+h2{
+   font-size: 50px;
+   position: absolute;
+   top: 10%;
+}
+h3{
+    position: absolute;
+    bottom: 0;
+}
+@media (max-width:600px) {
+    button{
+        width: 100%;
+        display: block;
+      margin-top: 30px;
+    }
+    h2{
+        font-size: 40px;
+        position: absolute;
+        top: 10%;
+        text-align: center;
+     }
+}
